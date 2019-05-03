@@ -65,8 +65,6 @@ margin-right: 5%;
   text-decoration: underline;
 }
 `
-
-// psudo classes
 const TopBarContainerRight = styled.div`
 display: flex;
 justify-content: flex-end;

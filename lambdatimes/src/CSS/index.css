@@ -102,12 +102,12 @@ body {
   cursor: pointer;
   margin-right: 5%;
 } */
-.top-bar .container .container-center span:last-child {
+/* .top-bar .container .container-center span:last-child {
   margin-right: 0;
 }
 .top-bar .container .container-center span:hover {
   text-decoration: underline;
-}
+} */
 /* .top-bar .container .container-right {
   display: flex;
   justify-content: flex-end;
@@ -312,5 +312,5 @@ body {
 }
 .carousel img {
   width: 100%;
-  display: none;
+  /* display: none; */
 }
