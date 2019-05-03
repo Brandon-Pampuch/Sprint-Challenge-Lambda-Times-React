@@ -29,9 +29,24 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+They are used to check our data types so that the wrong data is not passed into a function/prop.  This is important because it allows us to have fewer bugs and spot in the console where are errors are coming from.
+
 - [ ] Describe a life-cycle event in React?
+
+These are the methods you can use to update UI in React.  They can Mount data on initial render and update a components state later.
+
 - [ ] Explain the details of a Higher Order Component?
+
+It takes in a component and applies some logic to it.  The return is a copy of the component with the applied logic.  It can be either a stateful class component or a functional component being passed in.
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+Less/sass are fairly easy to integrate and allow clean BEM and an organized file structure.  They require less imports than styled components and keep a separation of concerns between styling and JS.  
+
+Similarly, vanilla CSS allows for similar benefits and requires zero set up.  It doesn’t need to compile or be refactored in anyway and any developer will be familiar with it.
+
+Styled components make it easier to implement the M in BEM components by giving you a simple JS solution for passing props/modifiers to a component’s styling.  They also move with the component and can be imported if they are not with the component.
 
 ## Project Setup
 
