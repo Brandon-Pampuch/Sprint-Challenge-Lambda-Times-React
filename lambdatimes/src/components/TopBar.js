@@ -58,6 +58,12 @@ font-size: 9px;
 const ContainerCenterSpan = styled.span`
 cursor: pointer;
 margin-right: 5%;
+:last-child {
+  margin-right: 0;
+}
+:hover {
+  text-decoration: underline;
+}
 `
 
 // psudo classes
